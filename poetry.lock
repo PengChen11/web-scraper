@@ -128,6 +128,17 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 version = "2.4.7"
 
 [[package]]
+category = "main"
+description = "A poor man's debugger for Python."
+name = "pysnooper"
+optional = false
+python-versions = "*"
+version = "0.4.1"
+
+[package.extras]
+tests = ["pytest"]
+
+[[package]]
 category = "dev"
 description = "pytest: simple powerful testing with Python"
 name = "pytest"
@@ -205,7 +216,7 @@ python-versions = "*"
 version = "0.2.3"
 
 [metadata]
-content-hash = "ea86f3b0e88d3124d12495f7c171f51790d9c1f788feee2422fcd16316c5b76c"
+content-hash = "8dc5e8a80d91c90526c97d203833bc5535ba0015cdf4e2c492c87077ab9d8c0f"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -260,6 +271,10 @@ py = [
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
+]
+pysnooper = [
+    {file = "PySnooper-0.4.1-py2.py3-none-any.whl", hash = "sha256:c33b45d69c1e0108e964ea45ee3b7a10d7e7c25b8cd7b50781076a919bec777b"},
+    {file = "PySnooper-0.4.1.tar.gz", hash = "sha256:b441e0a852f836e15c5ae36ef57d1537f63b35d256d0da18e7d48f3e82a7cff6"},
 ]
 pytest = [
     {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
